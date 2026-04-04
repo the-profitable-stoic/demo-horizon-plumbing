@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Horizon Plumbing",
+    "phone": "555-plu-r90",
+    "category": "plumbing",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "plumbing-trust-navy",
+      "categoryGroup": "plumbing",
+      "name": "Trust Navy",
+      "recipeFile": "plumbing/trust-navy.astro",
+      "colors": {
+        "primary": "#0077B6",
+        "primaryDark": "#023E8A",
+        "primaryLight": "#bfdded",
+        "secondary": "#00659b",
+        "accent": "#00B4D8",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#0077B6",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Nunito Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "plumbing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Plumbing Solutions in Atlanta",
+      "heroSubline": "Horizon Plumbing delivers expert service with a personal touch. Serving Atlanta homes since 2012 with honest pricing and quality workmanship.",
+      "aboutTitle": "Your Trusted Atlanta Plumber",
+      "aboutText": [
+        "Founded in 2012, Horizon Plumbing began as a small family-owned business serving the Marietta area. Today, we've grown to become one of Atlanta's most trusted plumbing services, while maintaining that personal touch.",
+        "We believe in doing the job right the first time. Our team undergoes continuous training to stay current with the latest plumbing technologies and techniques.",
+        "As active members of the Atlanta community, we're committed to giving back through local sponsorships and supporting neighborhood improvement projects."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Available round-the-clock for those unexpected plumbing crises that can't wait."
+        },
+        {
+          "title": "Local Experts",
+          "description": "We understand Atlanta's unique plumbing challenges from historic homes to modern builds."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprises - we provide clear estimates before any work begins."
+        },
+        {
+          "title": "Quality Guarantee",
+          "description": "We stand behind our work with industry-leading warranties on all services."
+        }
+      ],
+      "ctaHeadline": "Ready for Stress-Free Plumbing?",
+      "ctaSubline": "Schedule your service today and experience the Horizon Plumbing difference."
+    },
+    "services": [
+      {
+        "slug": "emergency-plumbing",
+        "name": "Emergency Plumbing",
+        "shortDescription": "Fast response to urgent plumbing issues any time of day or night.",
+        "description": "When your pipes burst at 2 AM or your water heater fails on a holiday weekend, Horizon Plumbing's emergency team is ready to help. Our fully-stocked trucks can handle most common emergencies on the spot, from frozen pipe repairs to severe clogs.\n\nWe understand how stressful plumbing emergencies can be, especially in Atlanta's older homes where unexpected issues often arise. That's why we prioritize rapid response times throughout our service area. Our technicians are trained to quickly diagnose problems and implement effective solutions that get your home back to normal with minimal disruption.\n\nCommon emergency calls we handle include overflowing toilets, basement flooding, gas line leaks, and sudden loss of water pressure. We maintain special equipment for trenchless repairs when possible to minimize damage to your property.",
+        "process": [
+          "Step 1: Immediate phone consultation to assess urgency",
+          "Step 2: Dispatch of nearest available technician",
+          "Step 3: On-site diagnosis and repair plan",
+          "Step 4: Permanent solution or temporary fix until full repair can be completed"
+        ],
+        "benefits": [
+          "Available 24/7 including holidays",
+          "Average response time under 90 minutes",
+          "Fully-equipped service vehicles",
+          "Licensed for gas line emergencies"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a plumbing emergency?",
+            "answer": "Any situation that could cause immediate property damage or health hazards qualifies as an emergency. This includes flooding, sewage backups, gas leaks, and complete loss of water."
+          },
+          {
+            "question": "Do you charge extra for after-hours calls?",
+            "answer": "We have standard after-hours rates that are clearly explained when you call. There are never hidden fees or surprises."
+          },
+          {
+            "question": "Can you handle emergencies in historic homes?",
+            "answer": "Absolutely. Our team has extensive experience working with Atlanta's older housing stock and understands the unique challenges these properties present."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-installation",
+        "name": "Water Heater Installation",
+        "shortDescription": "Expert installation of tank and tankless water heaters for Atlanta homes.",
+        "description": "Atlanta's hard water and varying temperatures put extra strain on water heaters. Horizon Plumbing specializes in proper sizing and installation of both traditional tank and modern tankless systems to match your home's specific needs.\n\nWe begin every installation with a thorough assessment of your household's hot water usage patterns, existing plumbing configuration, and energy efficiency goals. For homes in areas with frequent power fluctuations like some older Atlanta neighborhoods, we might recommend certain protective features.\n\nOur installation process includes proper permitting when required, careful removal of your old unit (including safe disposal), and precise installation of your new system with all necessary safety features. We'll walk you through operation and maintenance before we leave to ensure you get maximum lifespan from your investment.",
+        "process": [
+          "Step 1: In-home consultation and needs assessment",
+          "Step 2: System selection and quote presentation",
+          "Step 3: Professional removal of old unit",
+          "Step 4: Precision installation and testing"
+        ],
+        "benefits": [
+          "Energy-efficient options available",
+          "Proper sizing for your household",
+          "Compliance with local codes",
+          "5-year installation warranty"
+        ],
+        "faq": [
+          {
+            "question": "How long does water heater installation typically take?",
+            "answer": "Most standard replacements can be completed in 3-5 hours. Tankless systems or complex installations may require a full day."
+          },
+          {
+            "question": "What brands do you recommend for Atlanta's water conditions?",
+            "answer": "We prefer brands with good warranties that stand up to our mineral-rich water, like Bradford White and Rheem, but will work with any quality manufacturer."
+          },
+          {
+            "question": "Can you help me decide between tank and tankless?",
+            "answer": "Yes, we'll evaluate your usage patterns, available space, and long-term goals to recommend the best solution for your situation."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Thorough clearing of clogged drains using advanced techniques.",
+        "description": "From kitchen sinks in Midtown condos to shower drains in Buckhead mansions, clogged drains are a common Atlanta plumbing issue. Horizon Plumbing uses professional-grade equipment to clear even the toughest blockages without damaging your pipes.\n\nOur approach begins with diagnosing the cause of your drain problems. In Atlanta's older neighborhoods, we often find tree root intrusion in exterior lines or mineral buildup from our hard water. For interior drains, we frequently encounter grease accumulation (especially in homes without garbage disposals) or soap scum buildup.\n\nWe employ several methods depending on the situation: hydro jetting for complete pipe cleaning, motorized augers for tough obstructions, and camera inspections to identify problem areas. For recurring clogs, we can recommend and install preventative solutions like hair catchers or grease traps where appropriate.",
+        "process": [
+          "Step 1: Drain assessment and diagnosis",
+          "Step 2: Selection of appropriate cleaning method",
+          "Step 3: Thorough clearing of blockage",
+          "Step 4: Optional camera inspection to check pipe condition"
+        ],
+        "benefits": [
+          "No harsh chemicals used",
+          "Prevent future clogs",
+          "Camera inspection available",
+          "Warranty on cleared drains"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my drains professionally cleaned?",
+            "answer": "For most Atlanta homes, we recommend annual cleaning of main lines. Homes with mature trees or known pipe issues may benefit from more frequent service."
+          },
+          {
+            "question": "Will drain cleaning damage my old pipes?",
+            "answer": "We adjust our methods based on your pipe material and condition. Our technicians are specially trained to work safely with all types of plumbing."
+          },
+          {
+            "question": "Can you clean exterior drains and sewer lines?",
+            "answer": "Yes, we handle all types of drain cleaning from sink stoppers to main sewer lines, including exterior drainage systems."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair-replacement",
+        "name": "Pipe Repair & Replacement",
+        "shortDescription": "Expert solutions for leaking or damaged pipes in Atlanta homes.",
+        "description": "Atlanta's clay soil shifts and our temperature fluctuations create unique challenges for residential plumbing systems. Horizon Plumbing specializes in both traditional and trenchless pipe repair methods to minimize disruption to your home and landscape.\n\nWe frequently work with all types of piping found in Atlanta-area homes: copper in mid-century ranches, galvanized steel in older bungalows, and modern PEX in newer constructions. Our technicians can identify failing pipes before they cause major damage through careful inspection and camera diagnostics.\n\nFor accessible pipes, we often recommend spot repairs. When more extensive work is needed, we can frequently use trenchless pipe lining technology that avoids major excavation. In cases where full replacement is necessary, we coordinate carefully with homeowners to minimize impact on finished spaces and landscaping.",
+        "process": [
+          "Step 1: Comprehensive pipe inspection",
+          "Step 2: Identification of problem areas",
+          "Step 3: Recommendation of repair options",
+          "Step 4: Professional execution of chosen solution"
+        ],
+        "benefits": [
+          "Trenchless options available",
+          "Minimal property disruption",
+          "Materials suited to Atlanta conditions",
+          "10-year warranty on major replacements"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a leaking pipe?",
+            "answer": "Signs include unexplained increases in water bills, damp spots on walls/floors, reduced water pressure, or the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "What's the advantage of trenchless repair?",
+            "answer": "Trenchless methods typically cost less than traditional excavation, cause minimal landscape damage, and can often be completed in a day."
+          },
+          {
+            "question": "Do you work with insurance companies on pipe claims?",
+            "answer": "Yes, we're experienced at working with insurers and can provide the documentation they typically require for water damage claims."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Complete plumbing solutions for bathroom renovations in Atlanta homes.",
+        "description": "From updating a 1920s bungalow bathroom to creating a spa-like retreat in a Buckhead home, Horizon Plumbing brings expertise to every phase of your bathroom remodel. We coordinate closely with your contractor or can manage the entire plumbing scope of your project.\n\nAtlanta's mix of historic and modern homes presents unique plumbing challenges during renovations. In older properties, we often need to carefully preserve original features while upgrading functionality. For newer homes, we focus on maximizing efficiency and incorporating the latest water-saving technologies.\n\nOur bathroom remodeling services include: precise fixture placement, proper venting solutions, shower valve upgrades, tub-to-shower conversions, and installation of luxury features like body sprays or smart toilets. We handle all necessary permits and inspections to ensure your new bathroom meets current codes.",
+        "process": [
+          "Step 1: Consultation to discuss goals and constraints",
+          "Step 2: Plumbing system evaluation",
+          "Step 3: Detailed planning and permitting",
+          "Step 4: Professional installation and testing"
+        ],
+        "benefits": [
+          "Experience with historic home preservation",
+          "Energy-efficient fixture options",
+          "Seamless contractor coordination",
+          "5-year workmanship warranty"
+        ],
+        "faq": [
+          {
+            "question": "How long does plumbing work typically take in a bathroom remodel?",
+            "answer": "The plumbing phase usually takes 3-5 days for a standard remodel, depending on the complexity of changes. We provide detailed timelines during planning."
+          },
+          {
+            "question": "Can you help me choose water-efficient fixtures?",
+            "answer": "Absolutely. We stay current with WaterSense and other efficiency programs and can recommend products that save water without sacrificing performance."
+          },
+          {
+            "question": "Do you handle small updates like faucet replacements?",
+            "answer": "Yes, we do everything from single fixture updates to complete bathroom overhauls. No job is too small."
+          }
+        ]
+      },
+      {
+        "slug": "sump-pump-installation",
+        "name": "Sump Pump Installation",
+        "shortDescription": "Protect your Atlanta basement from flooding with proper sump pump systems.",
+        "description": "With Atlanta's heavy rains and high water table in many areas, a reliable sump pump system is essential for basement protection. Horizon Plumbing designs and installs complete sump pump solutions tailored to your home's specific needs.\n\nWe evaluate multiple factors when designing your system: basement size, typical water intrusion points, power availability, and whether you need a battery backup for storm season. In neighborhoods like Virginia-Highland with older homes, we often recommend dual-pump systems for extra protection during heavy downpours.\n\nOur installation process includes proper pit sizing, correct pump selection, and installation of check valves and alarms. We can integrate new systems with existing drainage or French drain systems. For homes in flood-prone areas, we might recommend water-powered backup options that work during power outages.",
+        "process": [
+          "Step 1: Basement assessment and water history review",
+          "Step 2: System design and product selection",
+          "Step 3: Professional installation",
+          "Step 4: Testing and maintenance demonstration"
+        ],
+        "benefits": [
+          "Battery backup options",
+          "High-capacity pumps available",
+          "Water alarm systems",
+          "5-year pump warranty"
+        ],
+        "faq": [
+          {
+            "question": "How often should sump pumps be replaced?",
+            "answer": "Most pumps last 7-10 years with proper maintenance. We recommend annual testing before rainy season and replacement at first signs of reduced performance."
+          },
+          {
+            "question": "Can you install a sump pump in a finished basement?",
+            "answer": "Yes, we take special care to minimize disruption in finished spaces and can often complete installations with minimal drywall or flooring damage."
+          },
+          {
+            "question": "What maintenance do sump pumps require?",
+            "answer": "We recommend checking operation seasonally, cleaning the pit annually, and testing backup systems monthly during storm season."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe installation and repair of gas lines for Atlanta homes.",
+        "description": "From gas log fireplaces in Buckhead homes to outdoor kitchens in Alpharetta, Horizon Plumbing's certified gas line technicians handle all types of residential gas line installations and repairs with uncompromising safety standards.\n\nWe're particularly experienced working with Atlanta's mix of older gas infrastructure and modern additions. Many historic homes have original gas lines that need careful evaluation before connecting new appliances. Our technicians use specialized leak detection equipment and follow strict protocols for every job.\n\nServices include: new gas line installation for appliances, gas fireplace hookups, outdoor kitchen plumbing, line pressure testing, leak detection and repair, and gas shutoff valve installation. We handle all necessary permits and inspections to ensure your system meets current safety codes.",
+        "process": [
+          "Step 1: Site evaluation and needs assessment",
+          "Step 2: System design and permitting",
+          "Step 3: Professional installation",
+          "Step 4: Thorough testing and inspection"
+        ],
+        "benefits": [
+          "Certified gas line specialists",
+          "Leak detection technology",
+          "Permits and inspections handled",
+          "10-year warranty on installations"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a gas leak?",
+            "answer": "Signs include the smell of rotten eggs, hissing sounds near gas lines, dead vegetation near pipes, or unexplained physical symptoms like headaches. If you suspect a leak, leave immediately and call 911."
+          },
+          {
+            "question": "Can you convert my fireplace from wood to gas?",
+            "answer": "Yes, we frequently handle fireplace conversions, including proper venting and gas line installation. We can coordinate with your fireplace specialist if needed."
+          },
+          {
+            "question": "Do you service existing gas lines?",
+            "answer": "Yes, we perform safety inspections, pressure tests, and repairs on all types of residential gas piping systems."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Emergency pipe repair",
+        "text": "When a pipe burst in our 1940s Virginia-Highland bungalow at 10 PM, Horizon had a technician to us in under an hour. He diagnosed the issue as corrosion in our original galvanized pipes and made a lasting repair that got us through the night until we could schedule full repiping. Professional, knowledgeable, and saved us from major water damage.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Tankless water heater installation",
+        "text": "We wanted to switch to tankless in our new Roswell home but were nervous about the conversion. The Horizon team explained all our options clearly and installed a system that handles our family of five perfectly. They even reconfigured some awkward plumbing in our laundry room at the same time. Six months later, we're saving about $40/month on utilities.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Bathroom remodel plumbing",
+        "text": "Horizon handled the plumbing for our master bath renovation in our Midtown condo. They worked seamlessly with our contractor, solved several unexpected challenges with our building's old plumbing stack, and installed a gorgeous freestanding tub exactly where we wanted it. Their attention to detail made all the difference in our tight space.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Sewer line replacement",
+        "text": "After three other plumbers couldn't solve our recurring basement backups in our Druid Hills home, Horizon used camera inspection to pinpoint root intrusion at our sewer main. They replaced the damaged section with trenchless technology that saved our landscaping and solved the problem completely. Worth every penny.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Nia W.",
+        "rating": 5,
+        "service": "Gas line installation",
+        "text": "We added an outdoor kitchen and needed new gas lines run. Horizon's technician took time to explain the safety features and made sure everything was up to code before the inspector came. They left our yard cleaner than they found it and the system has worked flawlessly all summer.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Annual plumbing maintenance",
+        "text": "As first-time homeowners of a 1960s ranch in Smyrna, we signed up for Horizon's annual maintenance plan. Their technician caught a small leak under our kitchen sink before it caused damage, cleaned our drains preventatively, and gave us great advice about maintaining our older plumbing. Peace of mind is priceless.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Atlanta Plumbing Services | Horizon Plumbing",
+        "description": "Trusted local plumber serving Atlanta with emergency repairs, installations, and remodeling services since 2012."
+      },
+      "about": {
+        "title": "About Horizon Plumbing | Atlanta's Trusted Plumbers",
+        "description": "Learn about our Atlanta-based plumbing company's history, values, and commitment to quality service in the community."
+      },
+      "services": {
+        "title": "Plumbing Services in Atlanta | Horizon Plumbing",
+        "description": "Comprehensive plumbing solutions including emergency repairs, water heaters, drain cleaning, and bathroom remodels for Atlanta homes."
+      },
+      "contact": {
+        "title": "Contact Horizon Plumbing | Atlanta Plumbing Experts",
+        "description": "Schedule service or get plumbing advice from Atlanta's trusted Horizon Plumbing team. Fast response times throughout the metro area."
+      },
+      "reviews": {
+        "title": "Customer Reviews | Horizon Plumbing Atlanta",
+        "description": "Read what Atlanta homeowners say about their experiences with Horizon Plumbing's quality workmanship and customer service."
+      },
+      "service-areas": {
+        "title": "Service Areas | Horizon Plumbing Atlanta",
+        "description": "Local plumber serving Marietta, Roswell, Alpharetta, Johns Creek, Kennesaw and surrounding Atlanta communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing proudly serves the vibrant community of Marietta, GA, where many homes were built in the 1960s and 1970s. Our team specializes in addressing the unique plumbing challenges of older subdivisions, including pipe corrosion, outdated fixtures, and sewer line issues. We understand the importance of preserving the charm of these homes while ensuring modern plumbing reliability.\n\nWith Marietta's hot, humid summers, plumbing systems can face added stress from increased water usage and potential pipe expansion. Whether you need emergency repairs, routine maintenance, or upgrades to improve efficiency, Horizon Plumbing delivers prompt, professional service tailored to Marietta's needs.",
+        "localContext": "Marietta features historic charm with many homes built in the 1960s-70s, requiring specialized plumbing care.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Smyrna",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing is your trusted partner for plumbing services in Roswell, GA, an upscale community known for its beautiful 1980s and 1990s subdivisions. We handle everything from leak repairs to whole-house repiping, ensuring your home's plumbing meets modern standards. Our expertise includes addressing slab leaks, water heater replacements, and high-efficiency fixture installations.\n\nRoswell's humid climate can accelerate wear on plumbing systems, making regular maintenance essential. Whether you're dealing with a minor drip or a major pipe burst, our team is equipped to provide fast, reliable solutions to keep your home running smoothly.",
+        "localContext": "Roswell's upscale 1980s-90s homes often require updates to aging plumbing systems for optimal performance.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Milton",
+          "Johns Creek"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing offers top-tier plumbing services for Alpharetta, GA, a thriving city with upscale developments from the 1990s and 2000s. Our team is skilled in handling modern plumbing systems, including tankless water heaters, smart irrigation, and high-end fixture installations. We also provide preventative maintenance to help homeowners avoid costly repairs.\n\nAlpharetta's hot summers can strain plumbing systems, particularly outdoor sprinklers and pools. Whether you need a simple faucet repair or a complex plumbing overhaul, Horizon Plumbing delivers exceptional service tailored to Alpharetta's luxury homes.",
+        "localContext": "Alpharetta's newer upscale developments benefit from modern plumbing solutions and preventative care.",
+        "nearbyAreas": [
+          "Roswell",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing provides expert plumbing services for Johns Creek, GA, a prestigious community with upscale subdivisions built in the 1990s and 2000s. Our team specializes in maintaining and upgrading high-end plumbing systems, including whole-house repiping, sump pump installations, and leak detection. We understand the importance of reliability in these well-appointed homes.\n\nJohns Creek's humid climate can lead to increased plumbing wear, making timely repairs and maintenance crucial. From minor fixes to major installations, Horizon Plumbing ensures your home's plumbing operates flawlessly year-round.",
+        "localContext": "Johns Creek's affluent neighborhoods demand high-quality plumbing services for their modern homes.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Duluth",
+          "Suwanee"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing is proud to serve Kennesaw, GA, a family-friendly city with suburban developments from the 1980s and 1990s. Our team excels at addressing common issues in these homes, such as aging pipes, water pressure problems, and sewer line backups. We offer comprehensive solutions, including repiping, drain cleaning, and water heater services.\n\nKennesaw's hot summers can exacerbate plumbing issues, particularly with outdoor spigots and irrigation systems. Whether you're dealing with a clogged drain or a burst pipe, Horizon Plumbing provides dependable, same-day service to keep your home comfortable.",
+        "localContext": "Kennesaw's 1980s-90s homes often need updates to maintain efficient plumbing performance.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing delivers exceptional plumbing services to Sandy Springs, GA, a bustling city with a mix of older and newer homes. We specialize in diagnosing and fixing plumbing issues in properties ranging from mid-century builds to modern constructions. Our services include leak detection, sewer line repairs, and bathroom remodels.\n\nSandy Springs' humid climate can lead to moisture-related plumbing problems, such as mold growth and pipe corrosion. Whether you need routine maintenance or an emergency repair, Horizon Plumbing is ready to assist with expert, local service.",
+        "localContext": "Sandy Springs' diverse housing stock requires adaptable plumbing solutions for every era.",
+        "nearbyAreas": [
+          "Roswell",
+          "Dunwoody",
+          "Atlanta"
+        ]
+      },
+      {
+        "city": "Dunwoody",
+        "slug": "dunwoody-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing is the go-to choice for plumbing services in Dunwoody, GA, a suburban community with a mix of older and contemporary homes. Our team is adept at handling everything from vintage plumbing systems to cutting-edge smart home installations. We provide services like pipe relining, water softener installations, and emergency leak repairs.\n\nDunwoody's hot, humid summers can strain plumbing systems, especially in older homes. Whether you're upgrading fixtures or addressing a sudden leak, Horizon Plumbing offers reliable, professional service tailored to Dunwoody's needs.",
+        "localContext": "Dunwoody's blend of older and newer homes requires versatile plumbing expertise.",
+        "nearbyAreas": [
+          "Sandy Springs",
+          "Brookhaven",
+          "Chamblee"
+        ]
+      },
+      {
+        "city": "Peachtree Corners",
+        "slug": "peachtree-corners-ga",
+        "state": "GA",
+        "content": "Horizon Plumbing serves Peachtree Corners, GA, a modern community with many homes built in the 2000s and beyond. Our team specializes in installing and maintaining high-efficiency plumbing systems, including tankless water heaters, recirculating pumps, and smart irrigation. We also offer preventative maintenance to keep these advanced systems running smoothly.\n\nPeachtree Corners' climate demands durable plumbing solutions to withstand humid summers. Whether you're renovating or need urgent repairs, Horizon Plumbing provides top-notch service for this upscale area.",
+        "localContext": "Peachtree Corners' newer homes benefit from advanced plumbing technologies and maintenance.",
+        "nearbyAreas": [
+          "Norcross",
+          "Duluth",
+          "Johns Creek"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp",
+      "water-heater-installation": "/images/service-water-heater-installation.webp",
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "pipe-repair-replacement": "/images/service-pipe-repair-replacement.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "sump-pump-installation": "/images/service-sump-pump-installation.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp"
+    },
+    "servicesResponsive": {
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-installation": {
+        "src": "/images/service-water-heater-installation.webp",
+        "srcset": "/images/service-water-heater-installation-400w.webp 400w, /images/service-water-heater-installation-800w.webp 800w, /images/service-water-heater-installation-1200w.webp 1200w, /images/service-water-heater-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair-replacement": {
+        "src": "/images/service-pipe-repair-replacement.webp",
+        "srcset": "/images/service-pipe-repair-replacement-400w.webp 400w, /images/service-pipe-repair-replacement-800w.webp 800w, /images/service-pipe-repair-replacement-1200w.webp 1200w, /images/service-pipe-repair-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sump-pump-installation": {
+        "src": "/images/service-sump-pump-installation.webp",
+        "srcset": "/images/service-sump-pump-installation-400w.webp 400w, /images/service-sump-pump-installation-800w.webp 800w, /images/service-sump-pump-installation-1200w.webp 1200w, /images/service-sump-pump-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
